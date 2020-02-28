@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+import axios from 'axios';//using axios library to send http requests to the backend
 
 export default class CreateUser extends Component{
 
@@ -28,6 +28,9 @@ export default class CreateUser extends Component{
         }
     
         console.log(user);
+
+        axios.post('http://localhost:5000/users/add', user) //sending post request to back-end end point and sending json object for backend as second argument
+        .then(res => console.log(res.data));
     
         this.setState({
           username: ''
