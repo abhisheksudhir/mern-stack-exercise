@@ -3,7 +3,7 @@ const cors = require('cors');
 const mongoose = require('mongoose'); // to connect to mongo db database
 // const bodyParser = require('body-parser'); included in express.json
 
-require('dotenv').config();
+require('dotenv').config(); //to create private variables
 
 //creating express server
 const app = express();
