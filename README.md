@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Just a practice app for react. It just accepts new users and their exercise logs. You can edit and delete exercises. 
+
+## Screenshots
+![exercise list screen](images/1.PNG)
+![create new exercise log screen](images/2.PNG)
+![add new user screen](images/3.PNG)
+
 ## Available Scripts
 
 In the project directory, you can run:
